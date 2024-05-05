@@ -161,7 +161,7 @@ msgstr "コンパイラ内部エラー: "
 #. due to -Werror and -Werror=warning.
 #: diagnostic.def:35 diagnostic.def:52
 msgid "error: "
-msgstr "エラー: "
+msgstr "バァカ！ "
 
 #: diagnostic.def:36
 msgid "sorry, unimplemented: "
@@ -169,7 +169,7 @@ msgstr "残念ですが未実装です: "
 
 #: diagnostic.def:37
 msgid "warning: "
-msgstr "警告: "
+msgstr "ざぁーこ！"
 
 #: diagnostic.def:38
 msgid "anachronism: "
@@ -177,7 +177,7 @@ msgstr ""
 
 #: diagnostic.def:39
 msgid "note: "
-msgstr "備考: "
+msgstr "そんなもの、自分で考えなさいよ……仕方ないから教えてあげる: "
 
 #: diagnostic.def:40
 msgid "debug: "
@@ -220,7 +220,7 @@ msgstr "コンパイラ内部エラー: "
 #: fortran/gfc-diagnostic.def:35
 #, fuzzy
 msgid "Error"
-msgstr "エラー:"
+msgstr "バァカ！"
 
 #: fortran/gfc-diagnostic.def:36
 #, fuzzy
@@ -230,7 +230,7 @@ msgstr "残念ですが未実装です: "
 #: fortran/gfc-diagnostic.def:37
 #, fuzzy
 msgid "Warning"
-msgstr "警告: "
+msgstr "ざぁーこ！"
 
 #: fortran/gfc-diagnostic.def:38
 msgid "anachronism"
@@ -262,7 +262,7 @@ msgstr "<型エラー>"
 #: fortran/gfc-diagnostic.def:47
 #, fuzzy
 msgid "error"
-msgstr "エラー: "
+msgstr "バァカ！ "
 
 #: gcc.cc:839 gcc.cc:896
 msgid "-gz is not supported in this configuration"
@@ -18266,7 +18266,7 @@ msgstr "メンバ関数 %qs 内"
 #: langhooks.cc:404
 #, c-format
 msgid "In function %qs"
-msgstr "関数 %qs 内"
+msgstr "そ、その %qs という関数の内"
 
 #: langhooks.cc:449
 #, fuzzy
@@ -21581,7 +21581,7 @@ msgstr ""
 #: go/gofrontend/expressions.cc:6981
 #, fuzzy
 msgid "integer division by zero"
-msgstr "ゼロ除算が発生しました"
+msgstr "ゼロ除算って何を考えているんよ"
 
 #: go/gofrontend/expressions.cc:6989
 msgid "shift of non-integer operand"
@@ -33593,7 +33593,7 @@ msgstr "関数 %qE へ渡す引数が少なすぎます"
 #: c/c-typeck.cc:3699
 #, gcc-internal-format
 msgid "too many arguments to function %qE"
-msgstr "関数 %qE への引数が多すぎます"
+msgstr "べ、別にあんたのためじゃないけど、関数 %qE への引数が多すぎる！"
 
 #: c-family/c-common.cc:6272
 #, fuzzy, gcc-internal-format
@@ -36206,7 +36206,7 @@ msgstr "入力ファイルが多すぎます"
 #: c-family/known-headers.cc:322
 #, gcc-internal-format
 msgid "%qs is defined in header %qs; did you forget to %<#include %s%>?"
-msgstr ""
+msgstr "%qsはヘッダーファイル%qsに定義されているんだよ！あたしはその%<#include %s%>を忘れた顔をもっと見たい〜"
 
 #: common/config/aarch64/aarch64-common.cc:400 config/aarch64/aarch64.cc:18135
 #, fuzzy, gcc-internal-format
@@ -43137,7 +43137,7 @@ msgstr "インライン関数 %q+D が宣言されましたが定義されてい
 #: c/c-decl.cc:1314
 #, gcc-internal-format
 msgid "unused variable %q+D"
-msgstr "使用されない変数 %q+D です"
+msgstr "あのー、 %q+Dを忘れたか？"
 
 #: c/c-decl.cc:1320 cp/decl.cc:710
 #, gcc-internal-format
@@ -44719,7 +44719,7 @@ msgstr "引数 %qD がプロトタイプと一致しません"
 #: c/c-decl.cc:10889 cp/decl.cc:18243
 #, gcc-internal-format
 msgid "no return statement in function returning non-void"
-msgstr "非 void を戻す関数内に return 文がありません"
+msgstr "非voidを戻す関数なのになんでreturn文がないの？キモー！"
 
 #: c/c-decl.cc:10908 cp/decl.cc:18327
 #, gcc-internal-format
@@ -52503,7 +52503,7 @@ msgstr "無効な宣言です"
 #: cp/decl.cc:695
 #, fuzzy, gcc-internal-format
 msgid "unused variable %qD"
-msgstr "使用されない変数 %q+D です"
+msgstr "あのー、 %qDを忘れたか？"
 
 #: cp/decl.cc:705
 #, gcc-internal-format
@@ -55926,7 +55926,7 @@ msgstr "%qT は %qE という名前のメンバを持っていません"
 #: cp/error.cc:4674 cp/typeck.cc:2883
 #, fuzzy, gcc-internal-format
 msgid "%qD is not a member of %qT"
-msgstr "%s に `%s' という名前のメンバはありません"
+msgstr "%qDは%qTのメンバーじゃないわよー！"
 
 #: cp/error.cc:4696
 #, fuzzy, gcc-internal-format
@@ -55936,7 +55936,7 @@ msgstr "%qT は %qE という名前のメンバを持っていません"
 #: cp/error.cc:4700 cp/typeck.cc:3476
 #, fuzzy, gcc-internal-format
 msgid "%qD is not a member of %qD"
-msgstr "%s に `%s' という名前のメンバはありません"
+msgstr "%qDは%qDのメンバーじゃないわよー！"
 
 #: cp/error.cc:4711
 #, fuzzy, gcc-internal-format
@@ -56563,7 +56563,7 @@ msgstr "%qE が宣言されていません (この関数内での最初の使用
 #: cp/lex.cc:734
 #, gcc-internal-format
 msgid "%qD was not declared in this scope"
-msgstr ""
+msgstr "%qD はまだ定義されていない！お前本当に頭悪いよね！"
 
 #. In a template, it is invalid to write "f()" or "f(3)" if no
 #. declaration of "f" is available.  Historically, G++ and most
@@ -57426,7 +57426,7 @@ msgstr ""
 #: cp/name-lookup.cc:6761
 #, gcc-internal-format
 msgid "%<std::%s%> is defined in header %qs; did you forget to %<#include %s%>?"
-msgstr ""
+msgstr "<std::%s%>はヘッダーファイル%qsに定義されているんだよ！あたしはあんたのその%<#include %s%>を忘れた顔をもっと見たい〜"
 
 #: cp/name-lookup.cc:6767
 #, fuzzy, gcc-internal-format
@@ -62882,7 +62882,7 @@ msgstr "%qT は %qE という名前のメンバを持っていません"
 #: cp/typeck.cc:3442 cp/typeck.cc:3468
 #, gcc-internal-format
 msgid "%<%D::%D%> is not a member of %qT"
-msgstr ""
+msgstr "%<%D::%D%>は%qTのメンバーじゃないわよー！"
 
 #: cp/typeck.cc:3507
 #, gcc-internal-format
@@ -62987,7 +62987,7 @@ msgstr ""
 #: cp/typeck.cc:4490
 #, gcc-internal-format
 msgid "too many arguments to function %q#D"
-msgstr ""
+msgstr "べ、別にあんたのためじゃないけど、関数 %q#D への引数が多すぎる！"
 
 #: cp/typeck.cc:4491
 #, gcc-internal-format
